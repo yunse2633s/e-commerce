@@ -1,0 +1,234 @@
+[
+	{
+		"name": "http_user",
+		"script": "server.js",
+		"cwd": "./rsc_user",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_traffic",
+		"script": "server.js",
+		"cwd": "./rsc_traffic",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_trade",
+		"script": "server.js",
+		"cwd": "./rsc_trade",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_msg",
+		"script": "server.js",
+		"cwd": "./rsc_msg",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_admin",
+		"script": "server.js",
+		"cwd": "./rsc_admin",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_share",
+		"script": "server.js",
+		"cwd": "./rsc_share",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_statistical",
+		"script": "server.js",
+		"cwd": "./rsc_statistical",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_phone",
+		"script": "server.js",
+		"cwd": "./rsc_phone",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_store",
+		"script": "server.js",
+		"cwd": "./rsc_store",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_dynamic",
+		"script": "server.js",
+		"cwd": "./rsc_dynamic",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_im",
+		"script": "server.js",
+		"cwd": "./rsc_im",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_map",
+		"script": "server.js",
+		"cwd": "./rsc_map",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_config",
+		"script": "server.js",
+		"cwd": "./rsc_config",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_credit",
+		"script": "server.js",
+		"cwd": "./rsc_credit",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_pay",
+		"script": "server.js",
+		"cwd": "./rsc_pay",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_office",
+		"script": "server.js",
+		"cwd": "./rsc_office",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "http_truck_tools",
+		"script": "server.js",
+		"cwd": "./rsc_truck_tools",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "web_share",
+		"script": "server.js",
+		"cwd": "./rsc_web_share",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "web_share_4200",
+		"script": "server.js",
+		"cwd": "./rsc_web_share_4200",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_user",
+		"script": "server_https.js",
+		"cwd": "./rsc_user",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_traffic",
+		"script": "server_https.js",
+		"cwd": "./rsc_traffic",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_trade",
+		"script": "server_https.js",
+		"cwd": "./rsc_trade",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_msg",
+		"script": "server_https.js",
+		"cwd": "./rsc_msg",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_statistical",
+		"script": "server_https.js",
+		"cwd": "./rsc_statistical",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_config",
+		"script": "server_https.js",
+		"cwd": "./rsc_config",
+		"env": {
+		  "node_env": "pro"
+		}
+	  },
+	{
+		"name": "https_im",
+		"script": "server_https.js",
+		"cwd": "./rsc_im",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_map",
+		"script": "server_https.js",
+		"cwd": "./rsc_map",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_credit",
+		"script": "server_https.js",
+		"cwd": "./rsc_credit",
+		"env":{
+			"node_env":"pro"
+		}
+	},
+	{
+		"name": "https_pay",
+		"script": "server_https.js",
+		"cwd": "./rsc_pay",
+		"env":{
+			"node_env":"pro"
+		}
+	}
+]

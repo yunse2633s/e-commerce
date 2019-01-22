@@ -1,0 +1,60 @@
+/**
+ * Created by Administrator on 2017/3/15.
+ */
+var model = require('../dbs/db_base');
+model = model('OrderClassify');
+var async = require('async');
+
+var config_common = global.config_common;
+exports.add = function (data, callback) {
+    model.add(data, callback);
+};
+exports.addList = function (data, callback) {
+    model.addList(data, callback);
+};
+
+exports.getOne = function (data, callback) {
+    model.getOne(data, callback);
+};
+
+exports.getList = function (data, callback) {
+    model.getList(data, callback);
+};
+exports.update = function (cond, callback) {
+    model.update(cond, callback);
+};
+exports.getListAndCount = function (page, data, callback) {
+    async.waterfall([
+        function (cb) {
+            model.getCount(data.find, cb);
+        },
+        function (count, cb) {
+            model.getList(data, function (err, result) {
+                if (err) {
+                    return cb(err);
+                }
+                var list = [];
+                result.forEach(function (offerAgain) {
+                    list.push(offerAgain.toObject());
+                });
+                cb(null, {
+                    exist: count > config_common.entry_per_page * page,
+                    list: list,
+                    count: count
+                });
+            })
+        }
+    ], callback);
+};
+
+exports.getCount = function (cond, callback) {
+    model.getCount(cond, callback);
+};
+
+
+exports.edit = function (data, callback) {
+    model.edit(data, callback)
+};
+exports.del = function (data, callback) {
+    model.del(data, callback)
+};

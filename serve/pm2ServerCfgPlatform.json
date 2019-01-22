@@ -1,0 +1,249 @@
+[
+  {
+    "name": "http_user",
+    "script": "server.js",
+    "cwd": "./rsc_user",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28010
+  },
+  {
+    "name": "http_traffic",
+    "script": "server.js",
+    "cwd": "./rsc_traffic",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28011
+  },
+  {
+    "name": "http_trade",
+    "script": "server.js",
+    "cwd": "./rsc_trade",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28012
+  },
+  {
+    "name": "http_msg",
+    "script": "server.js",
+    "cwd": "./rsc_msg",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28013
+  },
+  {
+    "name": "http_admin",
+    "script": "server.js",
+    "cwd": "./rsc_admin",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28016
+  },
+  {
+    "name": "http_share",
+    "script": "server.js",
+    "cwd": "./rsc_share",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28017
+  },
+  {
+    "name": "http_statistical",
+    "script": "server.js",
+    "cwd": "./rsc_statistical",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28018
+  },
+  {
+    "name": "http_phone",
+    "script": "server.js",
+    "cwd": "./rsc_phone",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28019
+  },
+  {
+    "name": "http_store",
+    "script": "server.js",
+    "cwd": "./rsc_store",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28020
+  },
+  {
+    "name": "http_dynamic",
+    "script": "server.js",
+    "cwd": "./rsc_dynamic",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28021
+  },
+  {
+    "name": "http_im",
+    "script": "server.js",
+    "cwd": "./rsc_im",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28022
+  },
+  {
+    "name": "http_map",
+    "script": "server.js",
+    "cwd": "./rsc_map",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28023
+  },
+  {
+    "name": "http_config",
+    "script": "server.js",
+    "cwd": "./rsc_config",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28024
+  },
+  {
+    "name": "http_credit",
+    "script": "server.js",
+    "cwd": "./rsc_credit",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 28025
+  },
+{
+		"name": "http_pay",
+		"script": "server.js",
+		"cwd": "./rsc_pay",
+		"env":{
+			"node_env":"platform"
+		}
+	},
+{
+		"name": "http_office",
+		"script": "server.js",
+		"cwd": "./rsc_office",
+		"env":{
+			"node_env":"platform"
+		}
+	},
+  // {
+  //   "name": "web_share",
+  //   "script": "server.js",
+  //   "cwd": "./rsc_web_share",
+  //   "env":{
+  //     "node_env":"platform"
+  //   }
+  // },
+  {
+    "name": "https_user",
+    "script": "server_https.js",
+    "cwd": "./rsc_user",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27010
+  },
+  {
+    "name": "https_traffic",
+    "script": "server_https.js",
+    "cwd": "./rsc_traffic",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27011
+  },
+  {
+    "name": "https_trade",
+    "script": "server_https.js",
+    "cwd": "./rsc_trade",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27010
+  },
+  {
+    "name": "https_msg",
+    "script": "server_https.js",
+    "cwd": "./rsc_msg",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27013
+  }
+  ,
+  {
+    "name": "https_statistical",
+    "script": "server_https.js",
+    "cwd": "./rsc_statistical",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27018
+  },
+  {
+    "name": "https_config",
+    "script": "server_https.js",
+    "cwd": "./rsc_config",
+    "env": {
+      "node_env": "platform"
+    },
+    "port":27024
+  },
+  {
+    "name": "https_im",
+    "script": "server_https.js",
+    "cwd": "./rsc_im",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27022
+  },
+  {
+    "name": "https_map",
+    "script": "server_https.js",
+    "cwd": "./rsc_map",
+    "env":{
+      "node_env":"platform"
+    },
+    "port": 27023
+  },
+  {
+    "name": "web_share",
+    "script": "server.js",
+    "cwd": "./rsc_web_share",
+    "env":{
+      "node_env":"pro"
+    }
+  }
+  // ,{
+  //   user :28010,
+  //   traffic :28011,
+  //   trade :28012,
+  //   msg :28013,
+  //   admin :28016,
+  //   share :28017,
+  //   statistical :28018,
+  //   phone :28019,
+  //   store :28020,
+  //   dynamic :28021,
+  //   im :28022,
+  //   map :28023,
+  //   config :28024,
+  //   mongo: 27040
+  // }
+]
