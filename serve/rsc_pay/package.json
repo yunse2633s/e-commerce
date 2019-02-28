@@ -1,0 +1,28 @@
+{
+  "name": "rsc_node_server",
+  "version": "1.0.0",
+  "description": "The back end server for RSC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "admin",
+  "license": "BSD",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.14.1",
+    "cron": "^1.1.0",
+    "decimal": "0.0.2",
+    "express": "^4.13.3",
+    "internal": "^1.0.8",
+    "jsonwebtoken": "^5.4.1",
+    "lodash": "^4.17.4",
+    "mongodb-core": "^3.0.1",
+    "mongoose": "^4.2.4",
+    "morgan": "^1.9.0",
+    "pingpp": "^2.1.1",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.19"
+  }
+}

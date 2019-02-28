@@ -1,0 +1,5 @@
+help_center.js
+生成帮助中心功能配置用的文件，
+外网60.205.146.196下
+目录root/code/rsc_web_share/views/help_center下
+把生成的配置覆盖到configs/config_help_center.js下各个角色即可
