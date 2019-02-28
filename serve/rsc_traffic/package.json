@@ -10,8 +10,8 @@
     "trade",
     "rsc"
   ],
-  "author": "Haoran Z",
-  "license": "ISC",
+  "author": "admin",
+  "license": "BSD",
   "dependencies": {
     "async": "^1.5.0",
     "body-parser": "^1.14.1",
