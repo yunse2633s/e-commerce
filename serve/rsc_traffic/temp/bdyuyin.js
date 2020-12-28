@@ -10,9 +10,9 @@ var querystring = require('querystring')
 
 //baidu id
 var team = 'rsc'
-var App_ID = '9917247'; //App_ID
-var client_id = 'bYOnmCXTbo6E8tlh3YufurXQ'; //API_Key
-var client_secret = '4CyAK9O91wEGDQVelIiRcemeKGs9G1nC'; //Secret_Key
+var App_ID = 'App_ID'; //App_ID
+var client_id = 'API_Key'; //API_Key
+var client_secret = 'Secret_Key'; //Secret_Key
 var data = {}
 //换取token
 // https://openapi.baidu.com/oauth/2.0/token
