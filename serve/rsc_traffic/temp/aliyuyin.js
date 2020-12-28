@@ -9,11 +9,11 @@ var postfix = 'mp3';
 // String stringToSign = method + "\n" + accept + "\n" + bodyMd5 + "\n" + content_type + "\n" + date;
 // 拼装stringToSign的值为：“POST\napplication/json\nAsdYv2nI4ijTfKYmKX4h/Q==\napplication/json\nWed, 31 May 2017 08:51:26 GMT”。
 var method = 'POST', 
-    access_key='wZ2NKdo8zRXchXpr', 
+    access_key='wZ2NwerrhXpr', 
     accept = 'audio/'+ postfix + ', application/json', 
     content_type='text/plain',
-    Access_Key_ID = 'LTAI5IhuHry8bu7y',
-    Access_Key_Secret = 'wZ2NKdo8zRXchXpr',
+    Access_Key_ID = 'LTAI5Iwerwer8bu7y',
+    Access_Key_Secret = 'wZ2NwerwerRXchXpr',
     date = (new Date()).toUTCString(),
     text = '"我爱你"';
 
